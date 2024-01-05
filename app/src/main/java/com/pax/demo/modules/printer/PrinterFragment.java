@@ -18,7 +18,7 @@ import java.util.Arrays;
 public class PrinterFragment extends BaseFragment implements OnItemClickListener {
     private LinearLayout screenLayout;
     private GridView consoleGridView;
-    private BackListAdapter adapter;
+   // private BackListAdapter adapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -27,16 +27,16 @@ public class PrinterFragment extends BaseFragment implements OnItemClickListener
 
         screenLayout = (LinearLayout) view.findViewById(R.id.fragment_screen);
         consoleGridView = (GridView) view.findViewById(R.id.fragment_gridview);
-        adapter = new BackListAdapter(Arrays.asList(getResources().getStringArray(R.array.Printer)), getActivity());
-        consoleGridView.setAdapter(adapter);
+//        adapter = new BackListAdapter(Arrays.asList(getResources().getStringArray(R.array.Printer)), getActivity());
+//        consoleGridView.setAdapter(adapter);
         consoleGridView.setOnItemClickListener(this);
         return view;
     }
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        adapter.setPos(position);
-        adapter.notifyDataSetChanged();
+//        adapter.setPos(position);
+//        adapter.notifyDataSetChanged();
         switch (position) {
             case 0:
                 fragmentSelect(new PrintStrFragment());
