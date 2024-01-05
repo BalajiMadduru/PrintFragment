@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="catalogue">
+        <item>DeviceInfo</item>
+        <item>Mag</item>
+        <item>Icc</item>
+        <item>Picc</item>
+        <item>Printer</item>
+        <item>Ped</item>
+        <item>Sys</item>
+        <item>KeyBoard</item>
+        <item>Scanner</item>
+        <item>Comm</item>
+        <item>SignPad</item>
+        <item>IDReader</item>
+        <item>CashDrawer</item>
+        <item>ScanCodec</item>
+        <item>WifiProbe</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="DeviceInfo">
+        <item>getModuleSupported</item>
+        <item>getUsageCount()</item>
+        <item>getFailCount</item>
+    </string-array>
+    <string-array name="Mag">
+        <item>read</item>
+    </string-array>
+    <string-array name="Icc">
+        <item>DetectAndIsoCommand</item>
+    </string-array>
+    <string-array name="Picc">
+        <item>detectAorBandCommand</item>
+        <item>detectMandRead</item>
+    </string-array>
+    <string-array name="Printer">
+        <item>print</item>
+        <item>cut paper</item>
+    </string-array>
+    <string-array name="Ped_IN">
+        <item>writeKey</item>
+        <item>writeTIK</item>
+        <item>getPinBlock</item>
+        <item>getMac</item>
+        <item>calcDes</item>
+        <item>getDUKPTPin</item>
+        <item>getDUPKTMac</item>
+        <item>getKCV</item>
+        <item>writeKeyVar</item>
+        <item>getVersion</item>
+        <item>erase</item>
+        <item>setIntervalTime</item>
+        <item>setFunctionKey</item>
+        <item>genRSAKey</item>
+        <item>writeRSAKey</item>
+        <item>readRSAKey</item>
+        <item>RSARecover</item>
+        <item>calcDUKPTDes</item>
+        <item>getDUKPTKsn</item>
+        <item>incDUKPTKsn</item>
+        <item>genSM2KeyPair</item>
+        <item>writeSM2Key</item>
+        <item>SM2SignAndVerify</item>
+        <item>SM2Recover</item>
+        <item>SM3</item>
+        <item>SM4</item>
+        <item>getMacSM</item>
+        <item>getPinBlockSM4</item>
+        <item>Aes</item>
+        <item>setKeyBoardLayout(String)</item>
+        <item>setKeyBoardLayout(Map)</item>
+    </string-array>
+    <string-array name="Ped_EX">
+        <item>writeKey</item>
+        <item>writeTIK</item>
+        <item>getPinBlock</item>
+        <item>getMac</item>
+        <item>calcDes</item>
+        <item>getDUKPTPin</item>
+        <item>getDUPKTMac</item>
+        <item>getVersion</item>
+        <item>setFunctionKey</item>
+        <item>setExMode</item>
+        <item>clearScreen</item>
+        <item>inputStr</item>
+        <item>showStr</item>
+        <item>getSN</item>
+        <item>genSM2KeyPair</item>
+        <item>writeSM2Key</item>
+        <item>SM2SignAndVerify</item>
+        <item>SM2Recover</item>
+        <item>SM3</item>
+        <item>SM4</item>
+        <item>getMacSM</item>
+        <item>getPinBlockSM4</item>
+    </string-array>
+    <string-array name="Sys">
+        <item>beep</item>
+        <item>getTermInfo</item>
+        <item>getRandom</item>
+        <item>getDevInferfaceVer</item>
+        <item>NavigationBar</item>
+        <item>StatusBar</item>
+        <item>Power</item>
+        <item>setSettingsNeedPW</item>
+        <item>switchTouchMode</item>
+        <item>getAppLogs</item>
+        <item>readTUSN</item>
+        <item>getBaseInfo</item>
+        <item>SystemLanguage</item>
+        <item>getPN</item>
+    </string-array>
+    <string-array name="KeyBoard">
+        <item>getKey</item>
+    </string-array>
+    <string-array name="Scanner">
+        <item>scan</item>
+    </string-array>
+    <string-array name="Comm">
+        <item>Uart</item>
+        <item>Modem</item>
+        <item>Channel</item>
+        <item>Bluetooth</item>
+        <item>getUartPortList</item>
+        <item>setRoute</item>
+        <item>switchApn</item>
+    </string-array>
+    <string-array name="selectNetWork">
+        <item>Wifi</item>
+        <item>Mobile</item>
+        <item>Lan</item>
+    </string-array>
+    <string-array name="navigation">
+        <item>NavigationBar</item>
+        <item>BackKey</item>
+        <item>HomeKey</item>
+        <item>RecentKey</item>
+    </string-array>
+
+    <string-array name="signPad">
+        <item>signPad</item>
+    </string-array>
+     <string-array name="idreader">
+        <item>readIDCard</item>
+    </string-array>
+    <string-array name="cashdrawer">
+        <item>open</item>
+    </string-array>
+</resources>

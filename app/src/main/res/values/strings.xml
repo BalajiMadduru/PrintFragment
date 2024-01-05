@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NeptuneLiteDEMO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- mainActivity -->
+    <string name="gl">GL</string>
+    <string name="dal">DAL</string>
+    <string name="emv">EMV</string>
+    <string name="explain">Gl:general lib\nDAL:device adapter lib\nEMV:EMV lib</string>
+    <string name="suggestion">Suggestion:import this project into Eclipse and create a LogCat Filter named \"Test\".</string>
+
+    <!-- SYS -->
+    <string name="random_number">random number：</string>
+    <string name="random_number_len">random number length</string>
+    <string name="create_random_number">create random number</string>
+    <string name="sys_led_red">red</string>
+    <string name="sys_led_green">green</string>
+    <string name="sys_led_yellow">yellow</string>
+    <string name="sys_led_blue">blue</string>
+    <string name="sys_led_allon">allon</string>
+    <string name="sys_led_alloff">alloff</string>
+
+    <!-- comm -->
+    <string name="comm_edit_hint">show result or edit data</string>
+
+    <!-- icc -->
+    <string name="icc_detect_nocard">Plese insert the card…</string>
+    <string name="icc_detect_havecard">have detected the card</string>
+
+    <!-- picc -->
+    <string name="picc_detect_INTERNAL">INTERNAL</string>
+    <string name="picc_detect_EXTERNAL">EXTERNAL</string>
+
+    <!-- mag -->
+    <string name="mag_swipe_card">Please swipe the card…</string>
+    <string name="mag_card_error">read card error</string>
+    <string name="mag_track1_data">\ntrack1 data：</string>
+    <string name="mag_track2_data">\ntrack2 data：</string>
+    <string name="mag_track3_data">\ntrack3 data：</string>
+
+    <!-- KeyBoard -->
+    <string name="keyboard_getkey">getKey</string>
+    <string name="keyboard_flush">flush</string>
+    <string name="keyboard_mute_on">mute</string>
+    <string name="keyboard_mute_off">unmute</string>
+    <string name="keyboard_hit_nokey">no key value in the buffer</string>
+
+    <!-- scanner -->
+    <string name="scanner_INTERNAL">INTERNAL SCANNER</string>
+    <string name="scanner_EXTERNAL">EXTERNAL SCANNER</string>
+    <string name="scanner_result">scan reault:</string>
+
+    <!-- printer -->
+    <string name="printer_fontset_ascii">ascii:</string>
+    <string name="printer_fontset_extcode">extCode:</string>
+    <string name="printer_bitmap_contain">contain bitmap</string>
+    <string name="printer_bitmap_no">no bitmap</string>
+    <string name="printer_spaceset_word">word space</string>
+    <string name="printer_spaceset_line">line space</string>
+    <string name="printer_leftindent">left indent</string>
+    <string name="printer_setgray">set gray</string>
+    <string name="printer_double_width">double width</string>
+    <string name="printer_normal_width">normal width</string>
+    <string name="printer_double_height">double height</string>
+    <string name="printer_normal_height">normal height</string>
+    <string name="printer_invert">invert print</string>
+    <string name="printer_normal">normal print</string>
+    <string name="printer_step">print step</string>
+    <string name="printer_status">getStatus</string>
+    <string name="printer_getdotline">getDotLine</string>
+    <string name="printer_prnstr">print string </string>
+    <string name="printer_start">start</string>
+    <string name="printer_edit_hint">0</string>
+    <string name="printer_edit_gray_hint">1</string>
+    <string name="printer_step_hint">150</string>
+    <string name="printer_test_str">打印测试语句ABCabc123~!#$富豪コンピュータ</string>
+
+    <!-- ped -->
+    <string name="ped_type_INTERNAL">INTERNAL PED</string>
+    <string name="ped_type_EXTERNAL">EXTERNAL PED</string>
+    <string name="ped_input">Please input the data to calculate (DES) :</string>
+    <string name="ped_input_sm2_sign">Please input the data to calculate signature data(SM2) :</string>
+    <string name="ped_result_success">Calculate result:</string>
+    <string name="ped_result_fail">Calculation error, no results</string>
+    <string name="ped_des_mac">Des algorithm using mac keys</string>
+    <string name="ped_des_des">Des algorithm using des keys</string>
+    <string name="ped_des_result">DUKPTDES(des) Calculate result:</string>
+    <string name="ped_mac_result">DUKPTDES(mac) Calculate result:</string>
+    <string name="ped_clear_success">clearScreen success！</string>
+    <string name="ped_clear_fail">clearScreen error！</string>
+    <string name="ped_pedclaer_success">PED all information clear success</string>
+    <string name="ped_pedclaer_fail">PED all information clear error</string>
+    <string name="ped_ksn_get">Get the Ksn value :</string>
+    <string name="ped_ksn_null">Not get the Ksn value</string>
+    <string name="ped_input_mac">Please input the data to calculate(MAC)：</string>
+    <string name="ped_mac_value">Get the DUPKTMAC value:</string>
+    <string name="ped_mac_null">Not get the DUPKTMAC value</string>
+    <string name="ped_number_error">Card number input error</string>
+    <string name="ped_input_password">Please input the password....</string>
+    <string name="ped_dukpin_result_success">getDUKPYPIN return result：</string>
+    <string name="ped_dukpin_result_fail">getDUKPYPIN not get the return result</string>
+    <string name="ped_kcvvalue_tpk1">Get the KCV(TPK) value:</string>
+    <string name="ped_kcvvalue_tpk2">Not get the KCV(TPK) value</string>
+    <string name="ped_kcvvalue_tak1">Get the KCV(TAK) value:</string>
+    <string name="ped_kcvvalue_tak2">Not get the KCV(TAK) value</string>
+    <string name="ped_kcvvalue_tdk1">Get the KCV(TDK) value:</string>
+    <string name="ped_kcvvalue_tdk2">Not get the KCV(TDK) value</string>
+    <string name="ped_macvalue_success">Get the MAC value </string>
+    <string name="ped_macvalue_fail">Not get the MAC value</string>
+    <string name="ped_pin_result1">getPinBlock return result：</string>
+    <string name="ped_pin_result2">getPinBlock not get the return result</string>
+    <string name="ped_version">Version information : </string>
+    <string name="ped_version_null">Not get the version information</string>
+    <string name="ped_indupkt_success">inDUPKTKsn  success</string>
+    <string name="ped_indupkt_error">inDUPKTKsn  error</string>
+    <string name="ped_input_allowable">Please input password minimum length and maximum allowable length</string>
+    <string name="ped_instead1">plain code display</string>
+    <string name="ped_instead2">* instead of display</string>
+    <string name="ped_return_string">return String :</string>
+    <string name="ped_return_null">Not get the ruturn String</string>
+    <string name="ped_rsa_public">RSA(public) random data :</string>
+    <string name="ped_rsa_public_fail">RSARecover(public)  fail!</string>
+    <string name="ped_rsa_private">RSA(private) random data ：</string>
+    <string name="ped_rsa_private_fail">RSARecover(private)  fail!</string>
+    <string name="ped_set_success">Set the external password keyboard model success</string>
+    <string name="ped_set_key">Set the CLear key function</string>
+    <string name="ped_set_removeall">Remove all digital</string>
+    <string name="ped_set_removelast">Remove the last digit</string>
+    <string name="ped_set_key_success">setup success</string>
+    <string name="ped_set_key_fail">setup failed</string>
+    <string name="ped_input_intervaltime">Please input the interval time for calculating Ping,Mac</string>
+    <string name="ped_intervaltime_success">IntervalTime success</string>
+    <string name="ped_intervaltime_fail">IntervalTime failed</string>
+    <string name="ped_display_content">Please input the content to display</string>
+    <string name="ped_display_success">display success</string>
+    <string name="ped_display_fail">display failed</string>
+    <string name="ped_input_write">Please input the data to write</string>
+    <string name="ped_writekeyvar_success">writeKeyVar success</string>
+    <string name="ped_writekeyvar_fail">writeKeyVar error</string>
+    <string name="ped_rsapublic_success">write RSAKey(public)  success!</string>
+    <string name="ped_rsapublic_fail">write RSAKey(public)  fail!</string>
+    <string name="ped_rsaprivate_success">write RSAKey(private)  success!</string>
+    <string name="ped_rsaprivate_fail">write RSAKey(private)  fail!</string>
+    <string name="ped_tik_success">TIK write success！</string>
+    <string name="ped_tik_fail">TIK write error！</string>
+    <string name="ped_input_cardnumber">Please input the card number:</string>
+    <string name="ped_confirm">confirm</string>
+    <string name="ped_test_tesult">Test result :</string>
+    <string name="ped_test_tesult_null">Not get the result</string>
+
+    <!-- GlTest -->
+    <string name="utils">Utils</string>
+    <string name="libs">Lbs</string>
+    <string name="convert">Convert</string>
+    <string name="imgProcessing">ImgProcessing</string>
+    <string name="comPress">ComPress</string>
+    <string name="comm">Comm</string>
+    <string name="commbt">CommBt</string>
+    <string name="appLog">AppLog</string>
+    <string name="test">Test</string>
+    <string name="algo">Algo</string>
+    <string name="db">Db</string>
+    <string name="packer">Packer</string>
+
+</resources>

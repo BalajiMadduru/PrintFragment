@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <Spinner
+        android:id="@+id/fragment_sys_bar_key_spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:spinnerMode="dropdown" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp" >
+
+        <Button
+            android:id="@+id/fragment_sys_bar_key_enable_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="enable" />
+
+        <Button
+            android:id="@+id/fragment_sys_bar_key_visible_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="visible" />
+    </LinearLayout>
+
+   
+</LinearLayout>

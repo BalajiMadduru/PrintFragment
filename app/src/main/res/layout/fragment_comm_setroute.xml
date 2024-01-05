@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/fragment_comm_setroute_enableMultiPath_Bt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="enableMultiPath"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/fragment_comm_setroute_disableMultiPath_Bt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="disableMultiPath"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/fragment_comm_setroute_enableChannel_Bt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="enableChannel"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/fragment_comm_setroute_disableChannel_Bt"
+             android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="disableChannel"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="SetRoute:" />
+
+        <RadioGroup
+            android:id="@+id/fragment_comm_setroute_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/fragment_comm_setroute_mobile_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mobile" />
+
+            <RadioButton
+                android:id="@+id/fragment_comm_setroute_wifi_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wifi" />
+
+            <RadioButton
+                android:id="@+id/fragment_comm_setroute_ethernet_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ethernet" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fragment_comm_setroute_test_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="result:" />
+
+</LinearLayout>

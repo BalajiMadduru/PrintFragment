@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DEMO</string>
+
+    <!-- mainActivity -->
+    <string name="gl">GL</string>
+    <string name="dal">DAL</string>
+    <string name="emv">EMV</string>
+    <!--<string name="sta1">0- 打印成功</string>-->
+    <!--<string name="sta2">1- 打印机忙</string>-->
+    <!--<string name="sta3">2- 打印机缺纸</string>-->
+    <!--<string name="sta4">3- 打印数据包格式错</string>-->
+    <!--<string name="sta5">4- 打印机故障</string>-->
+    <!--<string name="sta6">8- 打印机过热</string>-->
+    <!--<string name="sta7">9- 打印机电压过低</string>-->
+    <!--<string name="sta8">240- 打印未完成</string>-->
+    <!--<string name="sta9">252- 打印机未装字库</string>-->
+    <!--<string name="sta10">254- 数据包过长</string>-->
+
+    <!-- SYS -->
+    <string name="random_number">随机数：</string>
+    <string name="random_number_len">随机数长度</string>
+    <string name="create_random_number">产生随机数</string>
+    <string name="sys_led_red">红</string>
+    <string name="sys_led_green">绿</string>
+    <string name="sys_led_yellow">黄</string>
+    <string name="sys_led_blue">蓝</string>
+    <string name="sys_led_allon">全亮</string>
+    <string name="sys_led_alloff">全灭</string>
+
+    <!-- comm -->
+    <string name="comm_edit_hint">显示接收数据或者编辑发送数据</string>
+
+    <!-- icc -->
+    <string name="icc_detect_nocard">请插卡…</string>
+    <string name="icc_detect_havecard">已经检测到卡片</string>
+
+    <!-- picc -->
+    <string name="picc_detect_INTERNAL">内置PICC</string>
+    <string name="picc_detect_EXTERNAL">外置PICC</string>
+
+    <!-- mag -->
+    <string name="mag_swipe_card">请刷卡…</string>
+    <string name="mag_card_error">读卡错误</string>
+    <string name="mag_track1_data">\n磁道1数据：</string>
+    <string name="mag_track2_data">\n磁道2数据：</string>
+    <string name="mag_track3_data">\n磁道3数据：</string>
+
+    <!-- KeyBoard -->
+    <string name="keyboard_getkey">读取键值</string>
+    <string name="keyboard_flush">清除键盘缓存区</string>
+    <string name="keyboard_mute_on">按键静音</string>
+    <string name="keyboard_mute_off">按键发声</string>
+    <string name="keyboard_hit_nokey">缓存区没有按键值</string>
+
+     <!-- scanner -->
+    <string name="scanner_INTERNAL">内置扫描</string>
+    <string name="scanner_EXTERNAL">外置扫描</string>
+    <string name="scanner_result">扫描结果:</string>
+    
+    <!-- printer -->
+    <string name="printer_fontset_ascii">ASCII:</string>
+    <string name="printer_fontset_extcode">拓展码:</string>
+    <string name="printer_bitmap_contain">包含图片</string>
+    <string name="printer_bitmap_no">没有图片</string>
+    <string name="printer_spaceset_word">字间距</string>
+    <string name="printer_spaceset_line">行间距</string>
+    <string name="printer_leftindent">字符打印左边界</string>
+    <string name="printer_setgray">打印黑度</string>
+    <string name="printer_double_width">双倍宽度</string>
+    <string name="printer_normal_width">正常宽度</string>
+    <string name="printer_double_height">双倍高度</string>
+    <string name="printer_normal_height">正常高度</string>
+    <string name="printer_invert">反显打印</string>
+    <string name="printer_normal">正常打印</string>
+    <string name="printer_step">走纸</string>
+    <string name="printer_status">打印状态</string>
+    <string name="printer_getdotline">已打印的点阵行</string>
+    <string name="printer_prnstr">打印的字符串 </string>
+    <string name="printer_start">开始打印 </string>
+    <string name="printer_edit_hint">0</string>
+    <string name="printer_edit_gray_hint">1</string>
+    <string name="printer_step_hint">150</string>
+    <string name="printer_test_str">打印测试语句ABCabc123~!#$富豪コンピュータ</string>
+
+    <!-- ped -->
+    <string name="ped_type_INTERNAL">内置密码键盘</string>
+    <string name="ped_type_EXTERNAL">外置密码键盘</string>
+    <string name="ped_input">请输入需要计算的数据(DES) :</string>
+    <string name="ped_input_sm2_sign">请输入计算签名的数据(SM2) :</string>
+    <string name="ped_result_success">计算结果:</string>
+    <string name="ped_result_fail">计算错误,暂无结果</string>
+    <string name="ped_des_mac">使用mac密钥进行DES运算</string>
+    <string name="ped_des_des">使用des密钥进行DES运算</string>
+    <string name="ped_des_result">DUKPTDES(des) 计算结果:</string>
+    <string name="ped_mac_result">DUKPTDES(mac) 计算结果:</string>
+    <string name="ped_clear_success">clearScreen 成功！</string>
+    <string name="ped_clear_fail">clearScreen 失败！</string>
+    <string name="ped_pedclaer_success">清除PED所有信息成功</string>
+    <string name="ped_pedclaer_fail">"清除PED所有信息失败</string>
+    <string name="ped_ksn_get">获得的Ksn值为 :</string>
+    <string name="ped_ksn_null">暂未获得Ksn值</string>
+    <string name="ped_input_mac">请输入需要计算的数据(MAC)：</string>
+    <string name="ped_mac_value">获得的DUPKTMAC值为:</string>
+    <string name="ped_mac_null">暂未获得DUPKTMAC值</string>
+    <string name="ped_number_error">卡号输入错误</string>
+    <string name="ped_input_password">请输入密码....</string>
+    <string name="ped_dukpin_result_success">getDUKPYPIN 返回结果为：</string>
+    <string name="ped_dukpin_result_fail">getDUKPYPIN 无返回结果</string>
+    <string name="ped_kcvvalue_tpk1">获得的 KCV(TPK) 值为:</string>
+    <string name="ped_kcvvalue_tpk2">暂未获得 KCV(TPK)的值：</string>
+    <string name="ped_kcvvalue_tak1">获得的  KCV(TAK) 值为:</string>
+    <string name="ped_kcvvalue_tak2">暂未获得KCV(TAK)的值</string>
+    <string name="ped_kcvvalue_tdk1">获得的  KCV(TDK) 值为：</string>
+    <string name="ped_kcvvalue_tdk2">暂未会的KCV(TDK)的值</string>
+    <string name="ped_macvalue_success">获得的MAC值为： </string>
+    <string name="ped_macvalue_fail">暂未获得MAC值</string>
+    <string name="ped_pin_result1">getPinBlock 返回结果：</string>
+    <string name="ped_pin_result2">getPinBlock 无返回结果</string>
+    <string name="ped_version">版本信息 : </string>
+    <string name="ped_version_null">无版本信息</string>
+    <string name="ped_indupkt_success">inDUPKTKsn 成功</string>
+    <string name="ped_indupkt_error">inDUPKTKsn 失败</string>
+    <string name="ped_input_allowable">请填写允许输入密码的最小长度及最大长度</string>
+    <string name="ped_instead1">选择明码显示</string>
+    <string name="ped_instead2">选择*代替显示</string>
+    <string name="ped_return_string">返回字符串为 :</string>
+    <string name="ped_return_null">无字符串返回</string>
+    <string name="ped_rsa_public">RSA(public) 随机数据 :</string>
+    <string name="ped_rsa_public_fail">RSARecover(public)  失败!</string>
+    <string name="ped_rsa_private">RSA(private) 随机数据 ：</string>
+    <string name="ped_rsa_private_fail">RSARecover(private)  成功!</string>
+    <string name="ped_set_success">设置外置密码键盘模式成功</string>
+    <string name="ped_set_key">设置Clear键功能</string>
+    <string name="ped_set_removeall">清除全部数字</string>
+    <string name="ped_set_removelast">清除最后一个数字</string>
+    <string name="ped_set_key_success">设置成功</string>
+    <string name="ped_set_key_fail">设置失败</string>
+    <string name="ped_input_intervaltime">请输入Ping,Mac计算间隔时间</string>
+    <string name="ped_intervaltime_success">IntervalTime 成功</string>
+    <string name="ped_intervaltime_fail">IntervalTime 失败</string>
+    <string name="ped_display_content">请输入需要显示的内容</string>
+    <string name="ped_display_success">显示成功</string>
+    <string name="ped_display_fail">display 失败</string>
+    <string name="ped_input_write">请输入需要写入的数据</string>
+    <string name="ped_writekeyvar_success">writeKeyVar 成功</string>
+    <string name="ped_writekeyvar_fail">writeKeyVar 失败</string>
+    <string name="ped_rsapublic_success">write RSAKey(public)  成功!</string>
+    <string name="ped_rsapublic_fail">write RSAKey(public)  失败!</string>
+    <string name="ped_rsaprivate_success">write RSAKey(private)  成功!</string>
+    <string name="ped_rsaprivate_fail">write RSAKey(private)  失败!</string>
+    <string name="ped_tik_success">TIK write 成功！</string>
+    <string name="ped_tik_fail">TIK write 失败！</string>
+    <string name="ped_input_cardnumber">请输入卡号:</string>
+    <string name="ped_confirm">确认</string>
+    <string name="ped_test_tesult">测试结果:</string>
+    <string name="ped_test_tesult_null">暂无结果</string>
+
+</resources>

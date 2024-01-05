@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ebf0f1"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="554px"
+        android:background="@mipmap/bg">
+
+        <RelativeLayout
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/bg">
+
+            <TextView
+                android:id="@+id/crosshairs_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="输入密码"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/crosshairs_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:background="@mipmap/icon_back"/>
+        </RelativeLayout>
+
+        <!-- 金额 -->
+
+        <RelativeLayout
+            android:id="@+id/amount_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_layout"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="金额"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/input_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="¥88.88"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"/>
+        </RelativeLayout>
+        <!-- 卡号 -->
+
+        <RelativeLayout
+            android:id="@+id/card_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/amount_layout"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:id="@+id/cardNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="卡号"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/input_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="62px"
+                android:layout_toRightOf="@+id/cardNo"
+                android:text="6324 8569 7895 7895 654"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/password_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_layout"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:id="@+id/tv_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="密码"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"/>
+            <!-- 采用linearlayout实现小圆点 -->
+
+            <LinearLayout
+                android:id="@+id/dot_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="62px"
+                android:layout_toRightOf="@+id/tv_password"
+                android:orientation="horizontal">
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- 提示线和提示 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password_layout"
+            android:layout_marginLeft="170px"
+            android:layout_marginTop="20px">
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="511px"
+                android:layout_height="1px"
+                android:background="#cde8fb"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line"
+                android:layout_marginTop="28px"
+                android:text="无密码请直接点击确认按钮"
+                android:textColor="#cde8fb"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- 密码键盘 -->
+
+    <RelativeLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <!-- 密码键盘第一排 -->
+
+        <LinearLayout
+            android:id="@+id/password_layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="185px"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/btn_one"
+                android:layout_width="165px"
+                android:layout_height="185px"
+                android:scaleType="fitXY"
+                android:src="@mipmap/pw1"/>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="185px"
+                android:background="#b8b8b8"/>
+
+            <ImageView
+                android:id="@+id/btn_two"
+                android:layout_width="165px"
+                android:layout_height="185px"
+                android:scaleType="fitXY"
+                android:src="@mipmap/pw2"/>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="185px"
+                android:background="#b8b8b8"/>
+
+            <ImageView
+                android:id="@+id/btn_three"
+                android:layout_width="165px"
+                android:layout_height="185px"
+                android:scaleType="fitXY"
+                android:src="@mipmap/pw3"/>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="185px"
+                android:background="#b8b8b8"/>
+
+            <ImageView
+                android:id="@+id/btn_clear"
+                android:layout_width="165px"
+                android:layout_height="185px"
+                android:scaleType="fitXY"
+                android:src="@mipmap/clear"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="663px"
+            android:layout_height="1px"
+            android:layout_below="@+id/password_layout1"
+            android:layout_centerHorizontal="true"
+            android:background="#b8b8b8"/>
+        <!-- 密码键盘第二排 -->
+
+        <LinearLayout
+            android:id="@+id/password_layout2"
+            android:layout_width="wrap_content"
+            android:layout_height="185px"
+            android:layout_below="@+id/view1"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/btn_four"
+                android:layout_width="165px"
+                android:layout_height="185px"
+                android:scaleType="fitXY"
+                android:src="@mipmap/pw4"/>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="185px"
+                android:background="#b8b8b8"/>
+
+            <ImageView
+                android:id="@+id/btn_five"
+                android:layout_width="165px"
+                android:layout_height="185px"
+                android:scaleType="fitXY"
+                android:src="@mipmap/pw5"/>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="185px"
+                android:background="#b8b8b8"/>
+
+            <ImageView
+                android:id="@+id/btn_six"
+                android:layout_width="165px"
+                android:layout_height="185px"
+                android:scaleType="fitXY"
+                android:src="@mipmap/pw6"/>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="185px"
+                android:background="#b8b8b8"/>
+
+            <ImageView
+                android:id="@+id/btn_seven"
+                android:layout_width="165px"
+                android:layout_height="185px"
+                android:scaleType="fitXY"
+                android:src="@mipmap/pw7"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="663px"
+            android:layout_height="1px"
+            android:layout_below="@+id/password_layout2"
+            android:layout_centerHorizontal="true"
+            android:background="#b8b8b8"/>
+
+        <!-- 密码键盘第三排 -->
+
+        <LinearLayout
+            android:id="@+id/password_layout3"
+            android:layout_width="wrap_content"
+            android:layout_height="185px"
+            android:layout_below="@+id/view2"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/btn_eight"
+                android:layout_width="165px"
+                android:layout_height="185px"
+                android:scaleType="fitXY"
+                android:src="@mipmap/pw8"/>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="185px"
+                android:background="#b8b8b8"/>
+
+            <ImageView
+                android:id="@+id/btn_nine"
+                android:layout_width="165px"
+                android:layout_height="185px"
+                android:scaleType="fitXY"
+                android:src="@mipmap/pw9"/>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="185px"
+                android:background="#b8b8b8"/>
+
+            <ImageView
+                android:id="@+id/btn_zero"
+                android:layout_width="165px"
+                android:layout_height="185px"
+                android:scaleType="fitXY"
+                android:src="@mipmap/pw_zero"/>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="185px"
+                android:background="#b8b8b8"/>
+
+            <ImageView
+                android:id="@+id/btn_sure"
+                android:layout_width="165px"
+                android:layout_height="185px"
+                android:scaleType="fitXY"
+                android:src="@mipmap/nor_sure"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

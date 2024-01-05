@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        layout="@layout/fragment_ped_base_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/fragment_ped_getpinblock_setrandom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="random"
+            android:textSize="14sp" />
+        
+        <Button
+            android:id="@+id/fragment_ped_getpinblock_setlandscape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="setLayoutLandscape"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/fragment_ped_getpinblock_showbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="showInputBox"
+            android:textSize="14sp" />
+        
+
+        <EditText
+            android:id="@+id/fragment_ped_getpinblock_ped_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="ped title" />
+    </LinearLayout>
+
+</LinearLayout>
